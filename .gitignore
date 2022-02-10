@@ -9,9 +9,3 @@ test.sass
 
 # Folders
 
-.idea/
-.sass-cache
-_gh_pages
-_site
-images/trash
-node_modules
