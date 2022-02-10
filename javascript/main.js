@@ -220,9 +220,9 @@ document.addEventListener("DOMContentLoaded", function () {
   var baseURL = "" + window.location.origin + window.location.pathname;
   baseURL = "https://bgooonz-blog.github.io/";
   var facebookURL =
-    "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fcssreference.io";
+    "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fbgooonz-blog.github.io";
   var twitterURL =
-    "https://twitter.com/intent/tweet?url=http%3A%2F%2Fcssreference.io&text=CSS%20Reference%3A%20a%20visual%20guide%20to%20the%20most%20popular%20%23CSS%20properties";
+    "https://twitter.com/intent/tweet?url=http%3A%2F%2Fbgooonz-blog.github.io&text=CSS%20Reference%3A%20a%20visual%20guide%20to%20the%20most%20popular%20%23CSS%20properties";
 
   Array.prototype.forEach.call($propertyShares, function ($el, index) {
     $el.addEventListener("click", function (e) {
@@ -276,9 +276,9 @@ document.addEventListener("DOMContentLoaded", function () {
     isModaling = false;
     $modalShare.classList.remove("is-active");
     facebookURL =
-      "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fcssreference.io";
+      "https://www.facebook.com/sharer.php?u=http%3A%2F%2Fbgooonz-blog.github.io";
     twitterURL =
-      "https://twitter.com/intent/tweet?url=http%3A%2F%2Fcssreference.io&text=CSS%20Reference%3A%20a%20visual%20guide%20to%20the%20most%20popular%20%23CSS%20properties";
+      "https://twitter.com/intent/tweet?url=http%3A%2F%2Fbgooonz-blog.github.io&text=CSS%20Reference%3A%20a%20visual%20guide%20to%20the%20most%20popular%20%23CSS%20properties";
   }
 
   var modalClipboard = new Clipboard("#modal-copy");
